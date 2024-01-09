@@ -39,10 +39,10 @@ WebProbe is a bash script that combines various web reconnaissance and scanning 
 
 If you'd like to contribute, please fork the repository and create a pull request.
 
+## About Me
+
+Hi, I'm Devdas Kumar, the creator of WebProbe. I'm passionate about cybersecurity and exploring the depths of web technologies. This tool is a result of my journey in the field, and I hope it proves useful to others in their cybersecurity endeavors.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Made by
-
-Devdas Kumar
