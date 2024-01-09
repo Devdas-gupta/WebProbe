@@ -12,6 +12,10 @@ WebProbe is a bash script that combines various web reconnaissance and scanning 
 - Supports skipping nmap scan if desired.
 - Customizable directory scanning options for full scans or specific wordlists.
 
+## Preview
+
+![WebProbe Preview](https://github.com/Devdas-gupta/WebProbe/blob/main/demo.png)
+
 ## Prerequisites
 
 - [amass](https://github.com/OWASP/Amass)
