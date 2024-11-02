@@ -25,10 +25,14 @@ get_domain_info() {
 }
 
 get_ip_address() {
-    domain=$1
+    domain="$1"
 
     echo "Getting IP address for $domain..."
-    ip_address=$(dig +short $domain)
+    ip_address=$(dig +short "$domain")
+    if [[ $? -ne 0 ]]; then
+        echo "Failed to get IP address for $domain."
+        return 1
+    fi
     echo "IP Address: $ip_address"
 }
 
